@@ -21,22 +21,28 @@ export const boardMembers = [
     { role: "Tesoriere", name: "Federica Ventura" },
     { role: "Consigliere", name: "Ivana Lipari" },
     { role: "Consigliere", name: "Pablo Santini" },
+    { role: "Consigliere", name: "Claudia Utro" },
+    { role: "Consigliere", name: "Fabrizio Giotti" },
+    { role: "Consigliere", name: "Gabriele Alessandro" },
 ];
 
 export const choirMembers = {
     soprani: [
         "Adrielly Balistreri Pereira", "Stefania Bertorotta", "Rosalia D'Arpa",
         "Silvia Giaimo", "Silvia Lipari", "Sara Martorana",
-        "Stefania Minerva", "Cristina Passarelli Garzo", "Francesca Tocco"
+        "Stefania Minerva", "Cristina Passarelli Garzo", "Francesca Tocco",
+        "Ginevra Passiglia", "Greta Di Forti", "Rosanna Vassallo"
     ],
     contralti: [
         "Daniela Abate", "Paola Amenta", "Giulia Campobello",
         "Stefania Dagnino", "Ivana Lipari", "Luisa Lombardo",
-        "Maria Grazia Galioto", "Claudia Utro", "Federica Ventura"
+        "Maria Grazia Galioto", "Claudia Utro", "Federica Ventura",
+        "Simona Trapani"
     ],
     tenori: [
         "Ferdinando La Placa", "Emanuele Di Trapani",
-        "Arcangelo Governali", "Pablo Santini Aparicio"
+        "Arcangelo Governali", "Pablo Santini Aparicio",
+        "Gabriele Alessandro"
     ],
     baritoni: [
         "Salvatore La Croce", "Fabrizio Giotti",

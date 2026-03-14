@@ -19,7 +19,7 @@ import Button from "../components/ui/Button.astro";
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <Card
                     class="flex flex-col h-full hover:shadow-xl transition-shadow duration-300"
                 >
@@ -167,6 +167,39 @@ import Button from "../components/ui/Button.astro";
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </Card>
+
+                <Card
+                    class="flex flex-col h-full hover:shadow-xl transition-shadow duration-300"
+                >
+                    <div class="flex justify-center mb-8 h-32 items-center">
+                        <img
+                            src="/assets/logo-new-european-bauhaus.png"
+                            alt="Logo New European Bauhaus"
+                            class="max-h-full max-w-[80%] object-contain"
+                        />
+                    </div>
+                    <div class="flex-grow space-y-4 text-center">
+                        <h2
+                            class="text-2xl font-bold text-text-primary"
+                        >
+                            New European Bauhaus
+                        </h2>
+                        <div class="text-gray-700 leading-relaxed max-w-2xl mx-auto">
+                            <p>
+                                Un'iniziativa creativa e interdisciplinare promossa dalla <strong>Commissione Europea</strong> che collega il Green Deal ai nostri spazi di vita. Unisce sostenibilità, inclusione ed estetica per immaginare e costruire insieme un futuro migliore per tutti.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center pt-6 border-t border-gray-200">
+                        <Button
+                            href="https://new-european-bauhaus.europa.eu/index_en"
+                            target="_blank"
+                            variant="primary"
+                        >
+                            Scopri l'iniziativa
+                        </Button>
                     </div>
                 </Card>
             </div>

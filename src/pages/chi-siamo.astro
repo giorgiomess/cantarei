@@ -125,7 +125,53 @@ import { director, boardMembers, choirMembers } from "../data/team";
         </Container>
     </section>
 
-    <section class="py-20 bg-white">
+    <section class="py-20 bg-white border-y border-gray-100">
+        <Container>
+            <h2 class="text-3xl font-bold text-center mb-12">
+                Musicisti e Collaboratori
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                {/* Card Giuseppe */}
+                <Card class="flex items-center justify-center p-6 text-center hover:-translate-y-1 transition-transform duration-300">
+                    <div>
+                        <p class="text-sm font-bold text-accent-primary uppercase tracking-wide mb-1">
+                            Pianista
+                        </p>
+                        <p class="text-xl font-semibold text-gray-900">
+                            Giuseppe Messina
+                        </p>
+                    </div>
+                </Card>
+
+                {/* Card Ivan */}
+                <Card class="flex items-center justify-center p-6 text-center hover:-translate-y-1 transition-transform duration-300">
+                    <div>
+                        <p class="text-sm font-bold text-accent-primary uppercase tracking-wide mb-1">
+                            Percussionista
+                        </p>
+                        <p class="text-xl font-semibold text-gray-900">
+                            Ivan Scaffidi
+                        </p>
+                    </div>
+                </Card>
+
+                {/* Card Giorgio */}
+                <Card class="flex items-center justify-center p-6 text-center hover:-translate-y-1 transition-transform duration-300">
+                    <div>
+                        <p class="text-sm font-bold text-accent-primary uppercase tracking-wide mb-1">
+                            Webmaster &amp; Percussionista
+                        </p>
+                        <p class="text-xl font-semibold text-gray-900">
+                            Giorgio Messina
+                        </p>
+                    </div>
+                </Card>
+            </div>
+        </Container>
+    </section>
+
+    <section class="py-20 bg-background-primary">
         <Container>
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold mb-4">I Nostri Coristi</h2>
@@ -156,7 +202,7 @@ import { director, boardMembers, choirMembers } from "../data/team";
                     <h3
                         class="text-2xl font-bold text-accent-primary border-b border-accent-primary/20 pb-2"
                     >
-                        Contralti
+                        Mezzosoprani e contralti
                     </h3>
                     <ul class="space-y-2">
                         {

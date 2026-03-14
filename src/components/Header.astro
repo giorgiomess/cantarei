@@ -1,13 +1,13 @@
 ---
 // src/components/Header.astro
-import Container from "./ui/Container.astro"; // <--- 1. IMPORTA QUESTO
+import Container from "./ui/Container.astro";
 
 const navLinks = [
     { href: "/", label: "Home" },
     { href: "/chi-siamo", label: "Chi siamo" },
     { href: "/eventi", label: "Eventi" },
-    { href: "/sponsor", label: "Sponsor" },
-    { href: "/foto-e-video", label: "Foto e video" },
+    { href: "/partners", label: "Partner" },
+    { href: "https://www.facebook.com/associazionecantarei/photos", label: "Foto e video", target: "_blank" },
     { href: "/documenti", label: "Documenti" },
     { href: "/contatti", label: "Contatti" },
 ];
@@ -44,6 +44,8 @@ const currentPath = Astro.url.pathname;
                                     : "text-text-primary hover:text-accent-primary",
                             ]}
                             href={link.href}
+                            target={link.target || undefined}
+                            rel={link.target === "_blank" ? "noopener noreferrer" : undefined}
                         >
                             {link.label}
                         </a>
@@ -120,6 +122,8 @@ const currentPath = Astro.url.pathname;
                 navLinks.map((link) => (
                     <a
                         href={link.href}
+                        target={link.target || undefined}
+                        rel={link.target === "_blank" ? "noopener noreferrer" : undefined}
                         class="text-3xl font-medium text-text-primary hover:text-accent-primary transition-colors mobile-link"
                     >
                         {link.label}
