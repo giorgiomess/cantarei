@@ -13,9 +13,10 @@ import Button from "../components/ui/Button.astro";
                     I nostri Partner
                 </h1>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto text-balance">
-                    Siamo orgogliosi di collaborare con istituzioni ed
-                    eccellenze del territorio che sostengono la cultura e la
-                    nostra associazione.
+                    Collaborazioni istituzionali e convenzioni riservate ai
+                    soci: le aziende ed enti che sostengono la cultura e la
+                    nostra associazione, alcuni con sconti dedicati a chi fa
+                    parte di Canta Rei APS.
                 </p>
             </div>
 
@@ -25,40 +26,264 @@ import Button from "../components/ui/Button.astro";
                 >
                     <div class="flex justify-center mb-8 h-32 items-center">
                         <img
-                            src="/assets/logo-unipa.png"
-                            alt="Logo Università degli Studi di Palermo"
-                            class="max-h-full max-w-[80%] object-contain"
+                            src="/assets/eplanetlogo.svg"
+                            alt="Logo Eplanet Cinemas"
+                            class="max-h-full max-w-[80%] object-contain bg-[#2C2C2C] rounded-lg p-4"
                         />
                     </div>
                     <div class="flex-grow space-y-4">
-                        <h2
-                            class="text-2xl font-bold text-center text-text-primary"
-                        >
-                            Università degli Studi di Palermo
-                        </h2>
+                        <div class="text-center">
+                            <h2
+                                class="text-2xl font-bold text-text-primary mb-1"
+                            >
+                                Eplanet Cinemas
+                            </h2>
+                            <p class="text-gray-500 text-sm mb-1">
+                                King &amp; La Torre — Palermo
+                            </p>
+                            <p
+                                class="text-accent-primary font-medium text-sm uppercase tracking-wide"
+                            >
+                                Convenzione 100% online
+                            </p>
+                        </div>
+
                         <div class="text-gray-700 space-y-4 leading-relaxed">
                             <p>
-                                Da oggi <strong>Canta Rei APS</strong> è ufficialmente
-                                attiva come ente accreditato per i <strong
-                                    >tirocini universitari UNIPA</strong
-                                >!
+                                Ogni socio riceve sul cellulare la propria <strong
+                                    >Tessera Digitale Canta Rei APS</strong
+                                >: basta mostrarla dal display in cassa prima
+                                di richiedere i biglietti.
+                                <br /><em class="text-sm text-gray-500"
+                                    >Valida per tutto l'anno fino al
+                                    15/12/2026.</em
+                                >
                             </p>
-                            <p>
-                                Un nuovo passo importante, sancito dalla
-                                convenzione quinquennale, che apre le porte a
-                                studentesse e studenti interessati a fare
-                                esperienza nel mondo della musica e
-                                dell’organizzazione eventi.
+
+                            <div class="space-y-2">
+                                <div
+                                    class="flex justify-between items-center bg-white rounded-lg border border-gray-200 px-4 py-2.5"
+                                >
+                                    <span class="text-gray-600 text-sm"
+                                        >Lunedì – Giovedì</span
+                                    >
+                                    <span
+                                        class="font-bold text-accent-primary"
+                                        >€ 5,00</span
+                                    >
+                                </div>
+                                <div
+                                    class="flex justify-between items-center bg-white rounded-lg border border-gray-200 px-4 py-2.5"
+                                >
+                                    <span class="text-gray-600 text-sm"
+                                        >Venerdì, Sabato e Domenica</span
+                                    >
+                                    <span
+                                        class="font-bold text-accent-primary"
+                                        >€ 7,00</span
+                                    >
+                                </div>
+                                <div
+                                    class="flex justify-between items-center bg-white rounded-lg border border-gray-200 px-4 py-2.5"
+                                >
+                                    <span class="text-gray-600 text-sm"
+                                        >Proiezioni Dolby Atmos</span
+                                    >
+                                    <span
+                                        class="font-bold text-accent-primary"
+                                        >€ 7,50</span
+                                    >
+                                </div>
+                            </div>
+
+                            <p class="text-sm text-gray-500">
+                                La tariffa è riservata al socio e a un massimo
+                                di 3 familiari dello stesso nucleo (2 adulti e
+                                2 bambini).
                             </p>
+
+                            <details
+                                class="group bg-white rounded-lg border border-gray-200"
+                            >
+                                <summary
+                                    class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-accent-primary hover:bg-gray-50 transition-colors rounded-lg select-none"
+                                >
+                                    <span>Esclusioni e note</span>
+                                    <span
+                                        class="transition-transform group-open:rotate-180"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            ><path d="m6 9 6 6 6-6"></path></svg
+                                        >
+                                    </span>
+                                </summary>
+                                <div
+                                    class="text-gray-600 p-4 pt-0 text-sm border-t border-gray-100 mt-2"
+                                >
+                                    <p>
+                                        Sono escluse dalla promozione le prime
+                                        visioni, gli eventi speciali/Film
+                                        Gold, i film con prezzo imposto dal
+                                        distributore, le proiezioni 3D e i
+                                        periodi natalizio e pasquale.
+                                    </p>
+                                </div>
+                            </details>
                         </div>
                     </div>
                     <div class="mt-8 text-center pt-6 border-t border-gray-200">
                         <Button
-                            href="https://www.unipa.it"
+                            href="https://www.eplanetcinemas.it"
                             target="_blank"
                             variant="primary"
                         >
-                            Visita il sito UNIPA
+                            Visita il sito Eplanet Cinemas
+                        </Button>
+                    </div>
+                </Card>
+
+                <Card
+                    class="flex flex-col h-full hover:shadow-xl transition-shadow duration-300"
+                >
+                    <div class="flex justify-center mb-8 h-32 items-center">
+                        <img
+                            src="/assets/trenitalialogo.svg"
+                            alt="Logo Trenitalia"
+                            class="max-h-full max-w-[80%] object-contain"
+                        />
+                    </div>
+                    <div class="flex-grow space-y-4">
+                        <div class="text-center">
+                            <h2
+                                class="text-2xl font-bold text-text-primary mb-1"
+                            >
+                                Trenitalia for Business
+                            </h2>
+                            <p
+                                class="text-accent-primary font-medium text-sm uppercase tracking-wide"
+                            >
+                                Tariffe dedicate ai soci sulle Frecce
+                            </p>
+                        </div>
+
+                        <div class="text-gray-700 space-y-4 leading-relaxed">
+                            <div class="grid grid-cols-2 gap-4">
+                                <div
+                                    class="border-2 border-dashed border-accent-primary/30 rounded-xl p-4 bg-accent-primary/5 text-center"
+                                >
+                                    <p
+                                        class="text-3xl font-bold text-accent-primary"
+                                    >
+                                        10%
+                                    </p>
+                                    <p
+                                        class="text-xs text-gray-500 uppercase font-bold tracking-widest mt-1"
+                                    >
+                                        Sconto fisso Frecce
+                                    </p>
+                                </div>
+                                <div
+                                    class="border-2 border-dashed border-accent-primary/30 rounded-xl p-4 bg-accent-primary/5 text-center"
+                                >
+                                    <p
+                                        class="text-3xl font-bold text-accent-primary"
+                                    >
+                                        20%
+                                    </p>
+                                    <p
+                                        class="text-xs text-gray-500 uppercase font-bold tracking-widest mt-1"
+                                    >
+                                        Benvenuto (primi 30 gg)
+                                    </p>
+                                </div>
+                            </div>
+
+                            <p class="text-sm text-gray-500">
+                                Sconto fisso valido su tutti i biglietti delle
+                                Frecce (Frecciarossa, Frecciargento,
+                                Frecciabianca), a cui si aggiunge un 20% di
+                                benvenuto nei primi 30 giorni dall'attivazione.
+                            </p>
+
+                            <ul class="list-disc pl-5 space-y-1 text-sm">
+                                <li>
+                                    Cambi illimitati e rimborsi facilitati
+                                    prima della partenza
+                                </li>
+                                <li>Scelta del posto gratuita</li>
+                                <li>
+                                    +10% di punti extra accreditati sulla
+                                    propria CartaFRECCIA personale
+                                </li>
+                            </ul>
+
+                            <details
+                                class="group bg-white rounded-lg border border-gray-200"
+                            >
+                                <summary
+                                    class="flex justify-between items-center font-medium cursor-pointer list-none p-4 text-accent-primary hover:bg-gray-50 transition-colors rounded-lg select-none"
+                                >
+                                    <span>Come attivare lo sconto</span>
+                                    <span
+                                        class="transition-transform group-open:rotate-180"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            ><path d="m6 9 6 6 6-6"></path></svg
+                                        >
+                                    </span>
+                                </summary>
+                                <div
+                                    class="text-gray-600 p-4 pt-0 text-sm border-t border-gray-100 mt-2"
+                                >
+                                    <ol class="list-decimal pl-5 space-y-2">
+                                        <li>
+                                            Controlla la tua casella email
+                                            (anche nello SPAM): troverai
+                                            un'email d'invito inviata da
+                                            Trenitalia.
+                                        </li>
+                                        <li>
+                                            Apri la mail e imposta la tua
+                                            password.
+                                        </li>
+                                        <li>
+                                            Accedi al sito o all'App
+                                            Trenitalia con il tuo profilo:
+                                            vedrai automaticamente le tariffe
+                                            scontate dedicate all'associazione
+                                            e potrai prenotare in completa
+                                            autonomia.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center pt-6 border-t border-gray-200">
+                        <Button
+                            href="https://www.trenitalia.com/it/trenitalia-for-business.html"
+                            target="_blank"
+                            variant="primary"
+                        >
+                            Scopri Trenitalia for Business
                         </Button>
                     </div>
                 </Card>
@@ -167,6 +392,49 @@ import Button from "../components/ui/Button.astro";
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </Card>
+
+                <Card
+                    class="flex flex-col h-full hover:shadow-xl transition-shadow duration-300"
+                >
+                    <div class="flex justify-center mb-8 h-32 items-center">
+                        <img
+                            src="/assets/logo-unipa.png"
+                            alt="Logo Università degli Studi di Palermo"
+                            class="max-h-full max-w-[80%] object-contain"
+                        />
+                    </div>
+                    <div class="flex-grow space-y-4">
+                        <h2
+                            class="text-2xl font-bold text-center text-text-primary"
+                        >
+                            Università degli Studi di Palermo
+                        </h2>
+                        <div class="text-gray-700 space-y-4 leading-relaxed">
+                            <p>
+                                Da oggi <strong>Canta Rei APS</strong> è ufficialmente
+                                attiva come ente accreditato per i <strong
+                                    >tirocini universitari UNIPA</strong
+                                >!
+                            </p>
+                            <p>
+                                Un nuovo passo importante, sancito dalla
+                                convenzione quinquennale, che apre le porte a
+                                studentesse e studenti interessati a fare
+                                esperienza nel mondo della musica e
+                                dell’organizzazione eventi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center pt-6 border-t border-gray-200">
+                        <Button
+                            href="https://www.unipa.it"
+                            target="_blank"
+                            variant="primary"
+                        >
+                            Visita il sito UNIPA
+                        </Button>
                     </div>
                 </Card>
 
