@@ -2,7 +2,7 @@
 title: Armonie di Libertà
 subtitle: Museo Pitrè
 date: 2026-11-01
-poster: /assets/evento-01-11-2026.jpeg
+poster: /assets/evento-01-11-2026-new.jpg
 location: Palermo
 isArsEvent: false
 ---
